@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termo de Exclusão de Dados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Termo de Exclusão de Dados do Usuário</h1>
+    <p><strong>Última atualização:</strong> 02/03/2025 </p>
+
+    <p>
+        Na <span class="nome-empresa">PLACEHOLDER</span>, valorizamos sua privacidade e estamos comprometidos em garantir que você tenha controle sobre suas informações pessoais. Este Termo de Exclusão de Dados explica como você pode solicitar a exclusão de seus dados pessoais armazenados em nossos sistemas.
+    </p>
+
+    <h2>1. Direito à Exclusão de Dados</h2>
+    <p>
+        De acordo com as leis de proteção de dados aplicáveis, como a Lei Geral de Proteção de Dados (LGPD) no Brasil e o Regulamento Geral de Proteção de Dados (GDPR) na União Europeia, você tem o direito de solicitar a exclusão de seus dados pessoais.
+    </p>
+
+    <h2>2. Como Solicitar a Exclusão</h2>
+    <p>
+        Para solicitar a exclusão de seus dados pessoais, siga as etapas abaixo:
+    </p>
+    <ol>
+        <li>
+            <strong>Envie um e-mail:</strong> Envie um e-mail para <span class="email">PLACEHOLDER</span> com o assunto "Solicitação de Exclusão de Dados".
+        </li>
+        <li>
+            <strong>Informe seus dados:</strong> No corpo do e-mail, forneça as seguintes informações para que possamos identificar seus dados em nossos sistemas:
+            <ul>
+                <li>Nome completo.</li>
+                <li>Endereço de e-mail associado à sua conta.</li>
+                <li>Número de telefone (se aplicável).</li>
+                <li>Qualquer outra informação que ajude na identificação.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Confirmação de identidade:</strong> Para proteger sua privacidade, podemos solicitar informações adicionais para confirmar sua identidade antes de processar a solicitação.
+        </li>
+    </ol>
+
+    <h2>3. Processo de Exclusão</h2>
+    <p>
+        Após receber sua solicitação, seguiremos o seguinte processo:
+    </p>
+    <ul>
+        <li><strong>Verificação:</strong> Confirmaremos sua identidade e localizaremos seus dados em nossos sistemas.</li>
+        <li><strong>Exclusão:</strong> Seus dados pessoais serão excluídos de nossos bancos de dados, exceto quando a lei exigir ou permitir a retenção (por exemplo, para cumprir obrigações legais).</li>
+        <li><strong>Confirmação:</strong> Enviaremos uma confirmação por e-mail assim que a exclusão for concluída.</li>
+    </ul>
+
+    <h2>4. Prazos</h2>
+    <p>
+        Processaremos sua solicitação de exclusão dentro de <strong>30 dias</strong> a partir da data de recebimento. Se a solicitação for complexa ou envolver um grande volume de dados, poderemos estender o prazo por mais 30 dias, informando você sobre a extensão e o motivo.
+    </p>
+
+    <h2>5. Dados que Podem Ser Retidos</h2>
+    <p>
+        Em alguns casos, podemos reter determinados dados pessoais mesmo após uma solicitação de exclusão, incluindo:
+    </p>
+    <ul>
+        <li>Dados necessários para cumprir obrigações legais ou regulatórias.</li>
+        <li>Dados anonimizados ou agregados que não permitem a identificação individual.</li>
+        <li>Dados relacionados a transações financeiras ou contratos em vigor.</li>
+    </ul>
+
+    <h2>6. Contato</h2>
+    <p>
+        Se você tiver dúvidas sobre este Termo de Exclusão de Dados ou sobre o processo de exclusão, entre em contato conosco em:
+        <ul>
+            <li>E-mail: <span class="email">PLACEHOLDER</span></li>
+        </ul>
+    </p>
+
+    <script>
+        // Definindo as variáveis
+        const nomeEmpresa = "Neurora Systems";
+        const email = "operations@neurora.systems";
+        
+        // Função para substituir os textos
+        function substituirTextos() {
+            // Substituir todos os elementos com classe "nome-empresa"
+            const elementosEmpresa = document.getElementsByClassName('nome-empresa');
+            const elementosEmail = document.getElementsByClassName('email');
+
+            for (let i = 0; i < elementosEmpresa.length; i++) {
+                elementosEmpresa[i].textContent = nomeEmpresa;
+            }
+            
+            for (let i = 0; i < elementosEmail.length; i++) {
+                elementosEmail[i].textContent = email;
+            }
+        }
+
+        // Executar a função após o carregamento do DOM
+        document.addEventListener('DOMContentLoaded', substituirTextos);
+    </script>    
+</body>
+</html>
